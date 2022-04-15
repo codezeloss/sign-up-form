@@ -1,3 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: aqua;
+  font-family: "Anek Tamil", sans-serif;
+  color: #000;
+  background-color: rgba(211, 211, 211, 0.324);
+}
+
+.container {
+  width: 1340px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Image left side */
+.img-side {
+  width: 35%;
+  position: relative;
+}
+
+.nature-img {
+  width: 100%;
+  height: 90rem;
+}
+
+.logo-box {
+  width: 469px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.66);
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  gap: 26px;
+  align-items: center;
+  position: absolute;
+  top: 24rem;
+  left: 0rem;
+}
+
+.logo-img {
+  width: 90px;
+  height: 114px;
+}
+
+.logo-text {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* Form right side */
+.form-side {
+  width: 65%;
+}
+
+.paragraph {
+  width: 65rem;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-left: 6rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  background-color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+
+label {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: rgb(84, 83, 83);
+  margin-left: 6rem;
+}
+
+input {
+  margin-left: 6rem;
+  padding: 0.7rem;
+  width: 26rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #596d48;
+  padding: 1.4rem 6rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-left: 6rem;
+  margin-bottom: 3.4rem;
+  cursor: pointer;
+}
+
+.login-qst {
+  font-size: 2rem;
+  margin-left: 6rem;
+}
+
+.log-link:link,
+.log-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #596d48;
 }
